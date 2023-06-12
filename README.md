@@ -1,5 +1,7 @@
 # All projects's live demo
 
+[Connect Four Game](https://minhhoccode111.github.io/connectFourGame/)
+
 [The Book Library TOP](https://minhhoccode111.github.io/theBooksLibraryTOP/)
 
 [Tic Tac Toe TOP](https://minhhoccode111.github.io/ticTacToeTOP/)
