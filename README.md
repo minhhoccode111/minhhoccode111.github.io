@@ -8,13 +8,9 @@
 
 [Tic Tac Toe TOP](https://minhhoccode111.github.io/ticTacToeTOP/)
 
-[Simple To-Do List with a Lot of Design Patterns](https://minhhoccode111.github.io/simpleToDoListButWithALotsOfDesignPatterns/)
-
 [Snake Game](https://minhhoccode111.github.io/snakeGame/)
 
 [How Much Time Did I Waste Today?](https://minhhoccode111.github.io/howMuchTimeDidIWasteToday/)
-
-[Simple To-Do List OOP](https://minhhoccode111.github.io/simpleTodoListOOP/)
 
 [Vai Quyen Sach Project v0.0](https://minhhoccode111.github.io/vaiQuyenSachProject_v0.0/)
 
