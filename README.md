@@ -1,6 +1,10 @@
-# All projects's live demo
+# All projects' live demos
+
+[All projects' live demos](https://minhhoccode111.github.io/allProjectsLiveDemos/)
 
 [Check Mate Todo List](https://minhhoccode111.github.io/todoListTOP/)
+
+[Weather Wise Weather App](https://minhhoccode111.github.io/weatherAppTOP/)
 
 [Connect Four Game](https://minhhoccode111.github.io/connectFourGame/)
 
