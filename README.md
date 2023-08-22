@@ -1,37 +1,35 @@
 # All projects' live demos
 
-[All projects' live demos](https://minhhoccode111.github.io/allProjectsLiveDemos/)
+[All projects' live demos](https://minhhoccode111.github.io/all-projects-live-demos/)
 
-[Check Mate Todo List](https://minhhoccode111.github.io/todoListTOP/)
+[Check Mate Todo List](https://minhhoccode111.github.io/todo-list-top/)
 
-[Weather Wise Weather App](https://minhhoccode111.github.io/weatherAppTOP/)
+[Weather Wise Weather App](https://minhhoccode111.github.io/weather-app-top/)
 
-[Connect Four Game](https://minhhoccode111.github.io/connectFourGame/)
+[Connect Four Game](https://minhhoccode111.github.io/connect-four-game-top/)
 
-[The Book Library TOP](https://minhhoccode111.github.io/theBooksLibraryTOP/)
+[The Book Library TOP](https://minhhoccode111.github.io/the-books-library-top/)
 
-[Tic Tac Toe TOP](https://minhhoccode111.github.io/ticTacToeTOP/)
+[Tic Tac Toe TOP](https://minhhoccode111.github.io/tic-tac-toe-top/)
 
-[Snake Game](https://minhhoccode111.github.io/snakeGame/)
+[Snake Game](https://minhhoccode111.github.io/snake-game/)
 
-[How Much Time Did I Waste Today?](https://minhhoccode111.github.io/howMuchTimeDidIWasteToday/)
+[How Much Time Did I Waste Today?](https://minhhoccode111.github.io/how-much-time-did-i-waste-today/)
 
-[Vai Quyen Sach Project v0.0](https://minhhoccode111.github.io/vaiQuyenSachProject_v0.0/)
+[Vai Quyen Sach Project v0.0](https://minhhoccode111.github.io/vai-quyen-sach-project/)
 
-[Admin Dashboard TOP](https://minhhoccode111.github.io/adminDashboardTOP/)
+[Admin Dashboard TOP](https://minhhoccode111.github.io/admin-dashboard-top/)
 
-[Sign Up Form TOP](https://minhhoccode111.github.io/signUpFormTOP/)
+[Sign Up Form TOP](https://minhhoccode111.github.io/sign-up-form-top/)
 
-[Calculator on Web TOP](https://minhhoccode111.github.io/calculatorOnWebTOP/)
+[Calculator on Web TOP](https://minhhoccode111.github.io/calculator-on-web-top/)
 
-[Etch A Sketch TOP](https://minhhoccode111.github.io/etchASketchTOP/)
+[Etch A Sketch TOP](https://minhhoccode111.github.io/etch-a-sketch-top/)
 
-[Rock Paper Scissors Game TOP](https://minhhoccode111.github.io/rockPaperScissorsGameTOP/)
+[Rock Paper Scissors Game TOP](https://minhhoccode111.github.io/rock-paper-scissors-game-top/)
 
-[Age Calculator for Dummies](https://minhhoccode111.github.io/ageCalculatorForDummies/)
+[Landing Page](https://minhhoccode111.github.io/landing-page-top/)
 
-[Landing Page](https://minhhoccode111.github.io/landingPage/)
+[Recipes Website TOP](https://minhhoccode111.github.io/recipes-website-top/)
 
-[Recipes Website TOP](https://minhhoccode111.github.io/recipesWebsiteTOP/)
-
-[Restaurant Page TOP](https://minhhoccode111.github.io/restaurantPageTOP/)
+[Restaurant Page TOP](https://minhhoccode111.github.io/restaurant-page-top/)
