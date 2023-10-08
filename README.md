@@ -2,6 +2,8 @@
 
 [All projects' live demos](https://minhhoccode111.github.io/all-projects-live-demos/)
 
+[Battleship](https://minhhoccode111.github.io/battleship-top/)
+
 [Check Mate Todo List](https://minhhoccode111.github.io/todo-list-top/)
 
 [Weather Wise Weather App](https://minhhoccode111.github.io/weather-app-top/)
