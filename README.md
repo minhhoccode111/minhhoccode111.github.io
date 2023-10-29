@@ -2,6 +2,8 @@
 
 [All projects' live demos](https://minhhoccode111.github.io/all-projects-live-demos/)
 
+[Personal Portfolio](https://minhhoccode111.github.io/personal-portfolio/)
+
 [Battleship](https://minhhoccode111.github.io/battleship-top/)
 
 [Check Mate Todo List](https://minhhoccode111.github.io/todo-list-top/)
@@ -37,5 +39,3 @@
 [Recipes Website TOP](https://minhhoccode111.github.io/recipes-website-top/)
 
 [Browser Form TOP](https://minhhoccode111.github.io/browser-form-top/)
-
-[Restaurant Page TOP](https://minhhoccode111.github.io/restaurant-page-top/)
