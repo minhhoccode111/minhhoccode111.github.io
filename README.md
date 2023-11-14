@@ -2,6 +2,8 @@
 
 [All projects' live demos](https://minhhoccode111.github.io/all-projects-live-demos/)
 
+[CV Application TOP](https://main--voluble-sawine-82070b.netlify.app/)
+
 [Personal Portfolio](https://minhhoccode111.github.io/personal-portfolio/)
 
 [Battleship](https://minhhoccode111.github.io/battleship-top/)
