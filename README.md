@@ -2,9 +2,11 @@
 
 [All projects' live demos](https://minhhoccode111.github.io/all-projects-live-demos/)
 
-[Unique Pokemon](https://unique-pokemon.netlify.app/)
+[Content Savior](https://contentsavior.netlify.app/)
 
-[CV Application TOP](https://cv-application-top.netlify.app/)
+[Unique Pokemon](https://uniquepokemon.netlify.app/)
+
+[CV Application TOP](https://cvapplicationtop.netlify.app/)
 
 [Personal Portfolio](https://minhhoccode111.github.io/personal-portfolio/)
 
