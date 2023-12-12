@@ -20,7 +20,7 @@
 
 [Connect Four Game](https://minhhoccode111.github.io/connect-four-game-top/)
 
-[The Books Library TOP](https://minhhoccode111.github.io/the-books-library-top/)
+[The Books Library TOP](https://librarytop.netlify.app/)
 
 [Tic Tac Toe TOP](https://minhhoccode111.github.io/tic-tac-toe-top/)
 
