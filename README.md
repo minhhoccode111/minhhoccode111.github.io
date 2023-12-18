@@ -14,7 +14,7 @@
 
 [Check Mate Todo List](https://minhhoccode111.github.io/todo-list-top/)
 
-[Weather Wise Weather App](https://minhhoccode111.github.io/weather-app-top/)
+[Weather App TOP](https://weatherapptop.netlify.app/)
 
 [Restaurant Page TOP](https://minhhoccode111.github.io/restaurant-page-top/)
 
