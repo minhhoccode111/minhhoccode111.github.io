@@ -2,46 +2,46 @@
 
 [All projects' live demos](https://minhhoccode111.github.io/all-projects-live-demos/)
 
-[Content Savior](https://contentsavior.netlify.app/)
+[Vai Quyen Sach (Shopping Cart TOP)](https://github.com/minhhoccode111/shopping-cart-top/)
 
-[Unique Pokemon](https://uniquepokemon.netlify.app/)
+[Content Savior](https://github.com/minhhoccode111/content-savior/)
 
-[CV Application TOP](https://cvapplicationtop.netlify.app/)
+[Unique Pokemon](https://github.com/minhhoccode111/memory-card-top/)
 
-[Personal Portfolio](https://minhhoccode111.github.io/personal-portfolio/)
+[CV Application TOP](https://github.com/minhhoccode111/cv-application-top/)
 
-[Battleship](https://minhhoccode111.github.io/battleship-top/)
+[Personal Portfolio](https://github.com/minhhoccode111/personal-portfolio/)
 
-[Check Mate Todo List](https://minhhoccode111.github.io/todo-list-top/)
+[Battleship](https://github.com/minhhoccode111/battleship-top/)
 
-[Weather App TOP](https://weatherapptop.netlify.app/)
+[Check Mate Todo List](https://github.com/minhhoccode111/todo-list-top/)
 
-[Restaurant Page TOP](https://minhhoccode111.github.io/restaurant-page-top/)
+[Weather App TOP](https://github.com/minhhoccode111/weather-app-top/)
 
-[Connect Four Game](https://minhhoccode111.github.io/connect-four-game-top/)
+[Restaurant Page TOP](https://github.com/minhhoccode111/restaurant-page-top/)
 
-[The Books Library TOP](https://librarytop.netlify.app/)
+[Connect Four Game](https://github.com/minhhoccode111/connect-four-game-top/)
 
-[Tic Tac Toe TOP](https://minhhoccode111.github.io/tic-tac-toe-top/)
+[Library TOP](https://github.com/minhhoccode111/library-top/)
 
-[Snake Game](https://minhhoccode111.github.io/snake-game/)
+[Tic Tac Toe TOP](https://github.com/minhhoccode111/tic-tac-toe-top/)
 
-[How Much Time Did I Waste Today?](https://minhhoccode111.github.io/how-much-time-did-i-waste-today/)
+[Snake Game](https://github.com/minhhoccode111/snake-game/)
 
-[Vai Quyen Sach Project](https://minhhoccode111.github.io/vai-quyen-sach-project/)
+[How Much Time Did I Waste Today?](https://github.com/minhhoccode111/how-much-time-did-i-waste-today/)
 
-[Admin Dashboard TOP](https://minhhoccode111.github.io/admin-dashboard-top/)
+[Admin Dashboard TOP](https://github.com/minhhoccode111/admin-dashboard-top/)
 
-[Sign Up Form TOP](https://minhhoccode111.github.io/sign-up-form-top/)
+[Sign Up Form TOP](https://github.com/minhhoccode111/sign-up-form-top/)
 
-[Calculator on Web TOP](https://minhhoccode111.github.io/calculator-on-web-top/)
+[Calculator on Web TOP](https://github.com/minhhoccode111/calculator-on-web-top/)
 
-[Etch A Sketch TOP](https://minhhoccode111.github.io/etch-a-sketch-top/)
+[Etch A Sketch TOP](https://github.com/minhhoccode111/etch-a-sketch-top/)
 
-[Rock Paper Scissors Game TOP](https://minhhoccode111.github.io/rock-paper-scissors-game-top/)
+[Rock Paper Scissors Game TOP](https://github.com/minhhoccode111/rock-paper-scissors-game-top/)
 
-[Landing Page TOP](https://minhhoccode111.github.io/landing-page-top/)
+[Landing Page TOP](https://github.com/minhhoccode111/landing-page-top/)
 
-[Recipes Website TOP](https://minhhoccode111.github.io/recipes-website-top/)
+[Recipes Website TOP](https://github.com/minhhoccode111/recipes-website-top/)
 
-[Browser Form TOP](https://minhhoccode111.github.io/browser-form-top/)
+[Browser Form TOP](https://github.com/minhhoccode111/browser-form-top/)
