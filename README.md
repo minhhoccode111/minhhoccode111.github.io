@@ -6,15 +6,17 @@
 
 [Content Savior](https://github.com/minhhoccode111/content-savior/)
 
-[Unique Pokemon](https://github.com/minhhoccode111/memory-card-top/)
+[Unique Pokemon (Memory Card TOP)](https://github.com/minhhoccode111/memory-card-top/)
 
 [CV Application TOP](https://github.com/minhhoccode111/cv-application-top/)
 
 [Personal Portfolio](https://github.com/minhhoccode111/personal-portfolio/)
 
-[Battleship](https://github.com/minhhoccode111/battleship-top/)
+[Battleship TOP](https://github.com/minhhoccode111/battleship-top/)
 
-[Check Mate Todo List](https://github.com/minhhoccode111/todo-list-top/)
+[Operate Algorithms (Knight Travails TOP)](https://knighttravailstop.netlify.app/)
+
+[Check Mate (Todo List TOP)](https://github.com/minhhoccode111/todo-list-top/)
 
 [Weather App TOP](https://github.com/minhhoccode111/weather-app-top/)
 
