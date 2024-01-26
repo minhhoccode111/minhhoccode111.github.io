@@ -2,6 +2,8 @@
 
 [All projects' live demos](https://minhhoccode111.github.io/all-projects-live-demos/)
 
+[Mini message board TOP](https://github.com/minhhoccode111/mini-message-board-top)
+
 [Vai Quyen Sach (Shopping Cart TOP)](https://github.com/minhhoccode111/shopping-cart-top/)
 
 [Content Savior](https://github.com/minhhoccode111/content-savior/)
@@ -14,7 +16,7 @@
 
 [Battleship TOP](https://github.com/minhhoccode111/battleship-top/)
 
-[Operate Algorithms (Knight Travails TOP)](https://knighttravailstop.netlify.app/)
+[Operate Algorithms (Knight Travails TOP)](https://github.com/minhhoccode111/operate-algorithms/)
 
 [Check Mate (Todo List TOP)](https://github.com/minhhoccode111/todo-list-top/)
 
@@ -45,5 +47,3 @@
 [Landing Page TOP](https://github.com/minhhoccode111/landing-page-top/)
 
 [Recipes Website TOP](https://github.com/minhhoccode111/recipes-website-top/)
-
-[Browser Form TOP](https://github.com/minhhoccode111/browser-form-top/)
