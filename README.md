@@ -2,6 +2,8 @@
 
 [All projects' live demos](https://minhhoccode111.github.io/all-projects-live-demos/)
 
+[Gimme Music (Inventory Application TOP)](https://github.com/minhhoccode111/inventory-application-top)
+
 [Mini message board TOP](https://github.com/minhhoccode111/mini-message-board-top)
 
 [Vai Quyen Sach (Shopping Cart TOP)](https://github.com/minhhoccode111/shopping-cart-top/)
