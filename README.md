@@ -2,6 +2,8 @@
 
 [All projects' live demos](https://minhhoccode111.github.io/all-projects-live-demos/)
 
+[Blog API TOP Backend](https://github.com/minhhoccode111/blog-back/)
+
 [Members Only TOP](https://github.com/minhhoccode111/members-only-top/)
 
 [Gimme Music (Inventory Application TOP)](https://github.com/minhhoccode111/inventory-application-top)
@@ -16,7 +18,7 @@
 
 [CV Application TOP](https://github.com/minhhoccode111/cv-application-top/)
 
-[Personal Portfolio](https://github.com/minhhoccode111/personal-portfolio/)
+[Homepage TOP](https://github.com/minhhoccode111/homepage-top/)
 
 [Battleship TOP](https://github.com/minhhoccode111/battleship-top/)
 
