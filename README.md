@@ -2,6 +2,8 @@
 
 [All projects' live demos](https://minhhoccode111.github.io/all-projects-live-demos/)
 
+[Personal Portfolio (Blog frontend))](https://github.com/minhhoccode111/personal-portoflio/)
+
 [Blog API TOP Backend](https://github.com/minhhoccode111/blog-back/)
 
 [Members Only TOP](https://github.com/minhhoccode111/members-only-top/)
