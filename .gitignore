@@ -7,13 +7,14 @@ vendor/
 .ruby-gemset
 
 # lock file of Bundler
-Gemfile.lock
+# Gemfile.lock
 
 # cache and log
 .log/
 tmp/
 .sass-cache/
 .jekyll-cache/
+.jekyll-metadata
 
 # build file of Jekyll
 _site/

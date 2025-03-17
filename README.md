@@ -1,4 +1,21 @@
-# Content
+# Blog
 
-- [2025-03-17: Setup blog with Github Pages and Jekyll](/2025-03-16/setup-blog-with-github-pages-and-jekyll.md)
-- [2025-03-17: Hello, World!](/2025-03-17/hello-world.md)
+[![Build Status](https://github.com/minhhoccode111/blog/actions/workflows/build.yml/badge.svg)](https://github.com/minhhoccode111/blog/actions/workflows/build.yml)
+
+Contributions are most welcome! If you have edits or new content to add, please open an issue or submit a pull request.
+
+## Development
+
+To build and view the site locally, run:
+
+```bash
+bundle exec jekyll serve -w
+```
+
+If you'd prefer to develop the site in a Docker container (e.g., to avoid having to install Ruby and dependencies on your host machine), run:
+
+```bash
+docker-compose up --build
+```
+
+Then, navigate to http://localhost:4000 on your host machine to view the website. Jekyll will re-build the website as you make changes to files.

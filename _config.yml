@@ -1,3 +1,9 @@
-theme: jekyll-theme-minimal
-title: Minh Dang
-description: Minh Dang, also known as minhhoccode111, is a self-taught software developer. He has been working in web development since 2022 and is currently passionate about Linux, Vim, and Golang.
+theme: jekyll-theme-hacker
+title: Blog
+author: Minh Dang
+description: Minh Dang (aka minhhoccode111) - software developer - currently in love with Golang
+timezone: Asia/Ho_Chi_Minh
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

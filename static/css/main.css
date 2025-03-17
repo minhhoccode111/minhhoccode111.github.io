@@ -1,0 +1,7 @@
+/* Keep the theme styles */
+@import "jekyll-theme-hacker";
+
+.avatar {
+  height: 20px;
+  width: 20px;
+}
