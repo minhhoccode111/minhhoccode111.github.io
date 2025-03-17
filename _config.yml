@@ -1,9 +1,13 @@
-theme: jekyll-theme-hacker
 title: Blog
 author: Minh Dang
-description: Minh Dang (aka minhhoccode111) - software developer - currently in love with Golang
+# description: Minh Dang (aka minhhoccode111) - software developer - currently in love with Golang
+
+collections:
+  'blog':
+    output: true
+  'project':
+    output: true
+
 timezone: Asia/Ho_Chi_Minh
 exclude:
   - README.md
-  - Gemfile
-  - Gemfile.lock
