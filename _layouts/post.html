@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% if page.banner %}
+  {% include scaled_image.html src=page.banner alt="Page banner" width="616" %}
+{% endif %}
+
 <h1 class="title">{{ page.title }}{% if page.subtitle %} <span class="subtitle">{{ page.subtitle }}</span>{% endif %}</h1>
 
 {{ content }}

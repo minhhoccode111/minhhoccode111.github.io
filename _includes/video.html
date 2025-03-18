@@ -1,2 +1,7 @@
+{% comment %}
+  like scaled_video but keep the native width
+  {% include video.html src="video.mp4" options="autoplay loop" class="demo" %}
+{% endcomment %}
+
 <video src="{{ include.src }}" {{ include.options }} controls class="{{ include.class }}">
 </video>
