@@ -1,6 +1,6 @@
 # Blog
 
-[![Build Status](https://github.com/minhhoccode111/blog/actions/workflows/build.yml/badge.svg)](https://github.com/minhhoccode111/blog/actions/workflows/build.yml)
+[![Build Status](https://github.com/minhhoccode111/blog/actions/workflows/deploy.yml/badge.svg)](https://github.com/minhhoccode111/blog/actions/workflows/deploy.yml)
 
 Contributions are most welcome! If you have edits or new content to add, please open an issue or submit a pull request.
 
