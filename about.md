@@ -3,7 +3,6 @@ layout: post
 title: "About"
 description: "About Minh Dang (aka minhhoccode111) - Fullstack Golang Developer"
 # description: "help SEO"                # help optimzie SEO
-# layout: tutorial                       # have youtube video at the top
 # date: 2025-03-18                       # for sorting logic, etc
 # short_title: "Hello world"             # for meta preview if title too long
 # subtitle: "Hello world"                # small text next to page title with our custom theme
@@ -16,9 +15,7 @@ description: "About Minh Dang (aka minhhoccode111) - Fullstack Golang Developer"
 # thumbnail: "static/media/images/a.jpg" # preview card on social like twitter
 # lang: en                               # useful for accessibility and SEO, especially if your site is multilingual
 # redirect_from: /old-about              # if migrate of renaming pages, prevent broken links
-# video:                                 # embed video youtube in iframe
-#   aspect: 56.25                        # aspect ratio
-#   id: e8BO_dYxk5c                      # video's id
+# banner: "static/media/images/a.jpg"    # banner for the post
 ---
 
 # Hi
@@ -29,8 +26,9 @@ I taught myself to code and enhanced my craft with a lot of inspiration from [Th
 
 And that was really fun 😆
 
-{% comment %}
+{% include iframe_video.html id="QIyc6NKS5J0" aspect="56.25" %}
 
+{% comment %}
 ## Environment
 
 - Arch
@@ -47,22 +45,38 @@ And that was really fun 😆
 - ReactJS
 - MongoDB
 - PostgreSQL
-
 {% endcomment %}
 
 {% comment %}
 this is a commented block to show examples
 
-embed our static video, html
-<video autoplay="autoplay" loop="loop" controls muted playsinline  oncontextmenu="return false;"  preload="auto"  class="demo">
 
+example a code block
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World!")
+}
+```
+
+example download file
+[Golang file](/static/files/hello-world.go)
+
+example embed our static image, with style
+{% include scaled_image.html src="/static/media/images/avatar.png" alt="My Github Avatar" width="800" %}
+
+example embed our static video, html
+<video autoplay="autoplay" loop="loop" controls muted playsinline  oncontextmenu="return false;"  preload="auto"  class="demo">
   <source src="/static/media/demos/vim.mp4" type="video/mp4">
 </video>
 
-embed our static image, markdown
-![Local Port Forwarding](/static/media/images/local-port-forwarding.png)
+embed our static image, markdown native size
+![Local Port Forwarding](/static/media/images/avatar.png)
 
-loop through every post in a directory
+example loop through every page in a directory
 
 <ul class="double-spaced">
   {% assign projects = site['project'] | sort: 'date' | reverse %}
