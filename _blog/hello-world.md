@@ -5,9 +5,11 @@ date: 2025-03-17
 ready: true
 details: Build systems, dependency management, testing, CI
 banner: "/static/media/images/hello-world-banner.webp"
+lang: en
 ---
 
-I started this blog to share my knowledge and improve my writing skills 🚀
+I started this blog to share my knowledge and improve my writing skills 🚀\
+(I do think that we tend to learn better when we write things down or try to teach someone else)
 
 One of the most valuable resources I found was [this lesson](https://missing.csail.mit.edu/2020/metaprogramming/) from [Missing Semester](https://missing.csail.mit.edu/) course on "[metaprogramming](https://en.wikipedia.org/wiki/Metaprogramming)". It introduced me to key concepts such as:
 

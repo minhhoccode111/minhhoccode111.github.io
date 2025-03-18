@@ -2,23 +2,28 @@
 layout: post
 title: "About"
 description: "About Minh Dang (aka minhhoccode111) - Fullstack Golang Developer"
-# description: "help SEO"                # help optimzie SEO
-# date: 2025-03-18                       # for sorting logic, etc
-# short_title: "Hello world"             # for meta preview if title too long
-# subtitle: "Hello world"                # small text next to page title with our custom theme
-# ready: true                            # our logic to display a usable link when loop
-# details: Go, React, PostgreSQL etc     # display extra info with our custom theme
-# phony: true                            # exclude a page when loop through a dir with our logic
-# excerpt: ''                            # work around a bug
-# nositetitle: true                      # to hide the side title from the page title
-# permalink: /about                      # specify location instead of using default
-# thumbnail: "static/media/images/a.jpg" # preview card on social like twitter
-# lang: en                               # useful for accessibility and SEO, especially if your site is multilingual
-# redirect_from: /old-about              # if migrate of renaming pages, prevent broken links
-# banner: "static/media/images/a.jpg"    # banner for the post
+lang: en
+# description: "Helps with SEO optimization."
+# date: 2025-03-18                        # Used for sorting logic, post ordering, etc.
+# short_title: "Hello World"              # Alternative shorter title for meta previews if the main title is too long.
+# subtitle: "Hello World"                 # Small text displayed next to the page title in our custom theme.
+# ready: true                             # Controls whether a usable link should be displayed in loops.
+# details: "Go, React, PostgreSQL, etc."  # Displays extra information in our custom theme.
+# phony: true                             # Excludes the page from loops when iterating through a directory.
+# excerpt: ""                             # Workaround for a known bug.
+# nositetitle: true                       # Hides the site title from the page title.
+# permalink: "/about"                     # Manually specifies the page URL instead of using the default structure.
+# thumbnail: "static/media/images/a.jpg"  # Preview image for social media (Twitter, etc.).
+# lang: "en"                              # Improves accessibility and SEO, useful for multilingual sites.
+# redirect_from: "/old-about"             # Redirects old URLs when renaming/migrating pages to prevent broken links.
+# banner: "static/media/images/a.jpg"     # Banner image for the post.
+# repourl: "https://github.com/user/repo" # Repository link for projects, displayed if available.
+# demourl: "https://user.github.io"       # Demo link for projects, displayed if available.
+# hascontent: false                       # Determines whether navigation to the page should be enabled.
+# noteurl: "/blog/asd"                    # Link to a related blog post, tutorial, or documentation (internal or external).
 ---
 
-# Hi
+## Hi
 
 I'm Minh Dang (aka minhhoccode111).
 

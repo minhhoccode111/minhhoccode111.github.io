@@ -1,10 +1,8 @@
 ---
 layout: post
 title: "Homestay Management App"
-date: 2025-03-17
-ready: false
-phony: true
+date: 2025-06-17
 details: Golang, React, PostgreSQL, Redis
+phony: true
+hascontent: false
 ---
-
-TODO: Finish this project
