@@ -1,0 +1,22 @@
+---
+layout: post
+title: Blog
+description: "{{ site.description }} - blog"
+permalink: /
+---
+
+<ul>
+{% assign posts = site['blog'] | sort: 'date' | reverse %}
+{% for post in posts %}
+    {% if post.phony != true %}
+        <li>
+        <strong>{{ post.date | date: '%-m/%d/%y' }}</strong>:
+        {% if post.ready %}
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        {% else %}
+            {{ post.title }} [comming soon]
+        {% endif %}
+        </li>
+    {% endif %}
+{% endfor %}
+</ul>
