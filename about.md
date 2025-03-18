@@ -22,13 +22,19 @@ description: "About Minh Dang (aka minhhoccode111) - Fullstack Golang Developer"
 
 I'm Minh Dang (aka minhhoccode111).
 
-I taught myself to code and enhanced my craft with a lot of inspiration from [The Primeagen](https://youtu.be/QIyc6NKS5J0?si=j1C9zStlVkyJXa1O).
+I taught myself to code and enhanced my craft with a lot of inspiration from [The Primeagen](https://www.youtube.com/@ThePrimeagen).
 
 And that was really fun 😆
 
 {% include iframe_video.html id="QIyc6NKS5J0" aspect="56.25" %}
 
+## Contact me
+
+- Gmail: <minhhoccode111@gmail.com>
+- Github: <https://github.com/minhhoccode111>
+
 {% comment %}
+
 ## Environment
 
 - Arch
@@ -45,13 +51,14 @@ And that was really fun 😆
 - ReactJS
 - MongoDB
 - PostgreSQL
+
 {% endcomment %}
 
 {% comment %}
 this is a commented block to show examples
 
-
 example a code block
+
 ```go
 package main
 
@@ -70,6 +77,7 @@ example embed our static image, with style
 
 example embed our static video, html
 <video autoplay="autoplay" loop="loop" controls muted playsinline  oncontextmenu="return false;"  preload="auto"  class="demo">
+
   <source src="/static/media/demos/vim.mp4" type="video/mp4">
 </video>
 
