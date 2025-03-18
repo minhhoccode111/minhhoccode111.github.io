@@ -2,7 +2,7 @@
 layout: post
 title: Blog
 description: "{{ site.description }} - Blog"
-permalink: /blog
+permalink: /blog/
 banner: "/static/media/images/pepe-flower.webp"
 lang: en
 ---
