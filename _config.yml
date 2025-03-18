@@ -1,13 +1,41 @@
-title: Blog
+title: minhhoccode111
 author: Minh Dang
-# description: Minh Dang (aka minhhoccode111) - software developer - currently in love with Golang
+description: Minh Dang (aka minhhoccode111) - Fullstack Golang Developer
+# url: https://gominhgo.dev # custom url instead of gh-pages
 
+# setup markdown and syntax highlighting
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+# means that each page or post's url will be based only on its title
+permalink: /:title/
+# jekyll will include all posts, even those with future dates
+future: true
+
+# collections allow you to group related content separately from regular posts and pages
+# this defines two collections: blog and project
+# each file in "_blog" and "_project" must have front matter ("---" at the top)
 collections:
+  # each collection corresponds to a folder "_blog" and "_project"
   'blog':
+    # jekyll generates html for these collections
     output: true
   'project':
     output: true
+# you can access these collections in templates using site.[collection_name], e.g.:
+# {% for post in site.blog %}
+#   <a href="{{ post.url }}">{{ post.title }}</a>
+# {% endfor %}
+
+
+# Google Analytics
+# analytics:
+#   tracking_id: G-XXXXXXXXXX
 
 timezone: Asia/Ho_Chi_Minh
 exclude:
   - README.md
+  - Gemfile
+  - Gemfile.lock
