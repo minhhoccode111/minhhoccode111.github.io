@@ -20,7 +20,7 @@ lang: en
 # repourl: "https://github.com/user/repo" # Repository link for projects, displayed if available.
 # demourl: "https://user.github.io"       # Demo link for projects, displayed if available.
 # hascontent: false                       # Determines whether navigation to the page should be enabled.
-# noteurl: "/blog/asd"                    # Link to a related blog post, tutorial, or documentation (internal or external).
+# noteurl: "/blog/asd" or "https://a.b/c" # Link to a related blog post, tutorial, or documentation (internal or external).
 ---
 
 ## Hi
@@ -31,12 +31,12 @@ I taught myself to code and enhanced my craft with a lot of inspiration from [Th
 
 And that was really fun 😆
 
-{% include iframe_video.html id="QIyc6NKS5J0" aspect="56.25" %}
-
 ## Contact me
 
 - Gmail: <minhhoccode111@gmail.com>
 - Github: <https://github.com/minhhoccode111>
+
+{% include iframe_video.html id="96VlfN7ViyE" aspect="56.25" %}
 
 {% comment %}
 
