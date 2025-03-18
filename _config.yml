@@ -11,8 +11,8 @@ kramdown:
 highlighter: rouge
 # means that each page or post's url will be based only on its title
 permalink: /:title/
-# jekyll will include all posts, even those with future dates
-future: true
+# future: true - jekyll will include all posts, even those with future dates
+future: false
 
 # collections allow you to group related content separately from regular posts and pages
 # this defines two collections: blog and project

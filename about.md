@@ -3,7 +3,7 @@ layout: post
 title: "About"
 description: "About Minh Dang (aka minhhoccode111) - Fullstack Golang Developer"
 # description: "help SEO"                # help optimzie SEO
-# layout: tutorial                       # have video at the top like the lecture
+# layout: tutorial                       # have youtube video at the top
 # date: 2025-03-18                       # for sorting logic, etc
 # short_title: "Hello world"             # for meta preview if title too long
 # subtitle: "Hello world"                # small text next to page title with our custom theme
@@ -16,6 +16,9 @@ description: "About Minh Dang (aka minhhoccode111) - Fullstack Golang Developer"
 # thumbnail: "static/media/images/a.jpg" # preview card on social like twitter
 # lang: en                               # useful for accessibility and SEO, especially if your site is multilingual
 # redirect_from: /old-about              # if migrate of renaming pages, prevent broken links
+# video:                                 # embed video youtube in iframe
+#   aspect: 56.25                        # aspect ratio
+#   id: e8BO_dYxk5c                      # video's id
 ---
 
 # Hi
@@ -25,6 +28,8 @@ I'm Minh Dang (aka minhhoccode111).
 I taught myself to code and enhanced my craft with a lot of inspiration from [The Primeagen](https://youtu.be/QIyc6NKS5J0?si=j1C9zStlVkyJXa1O).
 
 And that was really fun 😆
+
+{% comment %}
 
 ## Environment
 
@@ -39,31 +44,30 @@ And that was really fun 😆
 - Go
 - .NET
 - ExpressJS
-- React
+- ReactJS
 - MongoDB
 - PostgreSQL
 
-{% comment %}
-example how to comment a block
 {% endcomment %}
 
 {% comment %}
-example embed our video
+this is a commented block to show examples
 
+embed our static video, html
 <video autoplay="autoplay" loop="loop" controls muted playsinline  oncontextmenu="return false;"  preload="auto"  class="demo">
 
   <source src="/static/media/demos/vim.mp4" type="video/mp4">
 </video>
 
-{% endcomment %}
+embed our static image, markdown
+![Local Port Forwarding](/static/media/images/local-port-forwarding.png)
 
-{% comment %}
-example loop through every post in a directory
+loop through every post in a directory
 
 <ul class="double-spaced">
   {% assign projects = site['project'] | sort: 'date' | reverse %}
   {% for project in projects %}
-    {% if lecture.phony != true %}
+    {% if project.phony != true %}
       <li>
         <strong>{{ project.date | date: '%-m/%d' }}</strong>:
         {% if project.ready %}
