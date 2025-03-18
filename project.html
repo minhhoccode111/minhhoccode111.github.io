@@ -1,0 +1,27 @@
+---
+layout: post
+title: Project
+description: "{{ site.description }} - Project"
+permalink: /project/
+banner: "/static/media/images/project-entry.webp"
+---
+
+<ul class="double-spaced">
+  {% assign projects = site['project'] | sort: 'date' | reverse %}
+  {% for project in projects %}
+    {% if project.phony != true %}
+      <li>
+        <strong>{{ project.date | date: '%-m/%d/%y' }}</strong>:
+        {% if project.ready %}
+          <a href="{{ project.url }}">{{ project.title }}</a>
+        {% else %}
+          {{ project.title }} [coming soon]
+        {% endif %}
+        {% if project.details %}
+          <br>
+          ({{ project.details }})
+        {% endif %}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
