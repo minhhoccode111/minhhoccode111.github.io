@@ -201,6 +201,10 @@ hr {
   text-align: center;
 }
 
+.right {
+  text-align: right;
+}
+
 .gap {
   margin-top: 4rem;
   margin-bottom: 4rem;

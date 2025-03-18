@@ -4,6 +4,9 @@ layout: default
 
 {% if page.banner %}
   {% include scaled_image.html src=page.banner alt="Page banner" width="616" %}
+  {% if page.banner_credit %}
+    <p class="right"><i>{{ page.banner_credit }}</i></p>
+  {% endif %}
 {% endif %}
 
 <h1 class="title">{{ page.title }}{% if page.subtitle %} <span class="subtitle">{{ page.subtitle }}</span>{% endif %}</h1>

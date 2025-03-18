@@ -3,7 +3,7 @@ layout: post
 title: Project
 description: "{{ site.description }} - Project"
 permalink: /project/
-banner: "/static/media/images/project-entry.webp"
+banner: "/static/media/images/pepe-bubble.png"
 lang: en
 ---
 
@@ -47,7 +47,7 @@ lang: en
 
 ## Legacy
 
-Such a mess, will refactor later 😆
+Such a mess, will cleanup later 😆
 
 | Name                | Deploy                                                                 | Repo                                                                     | Concepts                                                                                                                                                                                                                                  |
 | ------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
