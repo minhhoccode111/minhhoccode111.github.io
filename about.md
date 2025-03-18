@@ -31,16 +31,7 @@ I taught myself to code and enhanced my craft with a lot of inspiration from [Th
 
 And that was really fun 😆
 
-## Contact me
-
-- Gmail: <minhhoccode111@gmail.com>
-- Github: <https://github.com/minhhoccode111>
-
-{% include iframe_video.html id="96VlfN7ViyE" aspect="56.25" %}
-
-{% comment %}
-
-## Environment
+## My Environment
 
 - Arch
 - NeoVim
@@ -54,10 +45,16 @@ And that was really fun 😆
 - .NET
 - ExpressJS
 - ReactJS
+- Redis
 - MongoDB
 - PostgreSQL
 
-{% endcomment %}
+## Contact me
+
+- Gmail: <minhhoccode111@gmail.com>
+- Github: <https://github.com/minhhoccode111>
+
+{% include iframe_video.html id="96VlfN7ViyE" aspect="56.25" %}
 
 {% comment %}
 this is a commented block to show examples
