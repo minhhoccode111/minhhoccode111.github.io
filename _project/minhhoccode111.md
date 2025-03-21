@@ -1,6 +1,8 @@
 ---
 layout: post
-title: minhhoccode111.github.io (this site)
+date: 2025-03-22
+title: minhhoccode111.github.io
+subtitle: "(this site)"
 details: Gh-pages, Gh Actions, Jekyll, Ruby, SSG
 hascontent: false
 repourl: https://github.com/minhhoccode111/minhhoccode111.github.io
