@@ -7,47 +7,97 @@ banner: "/static/media/images/pepe-bubble.png"
 lang: en
 ---
 
-## New
+<style>
+  .projects-table {
+    width: 100%;
+    border-spacing: 4px;
+  }
 
-<ul class="double-spaced">
-  {% assign projects = site['project'] | sort: 'date' | reverse %}
-  {% for project in projects %}
-    {% if project.phony != true %}
-      <li>
-        <strong>{{ project.date | date: '%d/%-m/%y' }}</strong>:
-        {% if project.hascontent %}
-          <a href="{{ project.url }}">{{ project.title }}</a>
-        {% else %}
-          {{ project.title }}
-        {% endif %}
-        <br>
-        {% if project.repourl %}
-          <a href="{{ project.repourl }}">Repo</a>
-        {% else %}
-          Repo
-        {% endif %}
-        |
-        {% if project.demourl %}
-          <a href="{{ project.demourl }}">Demo</a>
-        {% else %}
-          Demo
-        {% endif %}
-        {% if project.noteurl %}
-          |
-          <a href="{{ project.noteurl }}">Note</a>
-        {% endif %}
-        {% if project.details %}
-          <br>
-          {{ project.details }}
-        {% endif %}
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+  .projects-table th,
+  .projects-table td {
+    padding: 0px 8px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .projects-table th {
+    font-weight: bold;
+  }
+
+  /* .projects-table tr:nth-child(even) td{ */
+  /*   border-top: 1px solid #f9f9f9; */
+  /*   border-bottom: 1px solid #f9f9f9; */
+  /* } */
+
+  .projects-table tr td{
+    border-bottom: 1px solid #999;
+  }
+</style>
+
+<table class="projects-table">
+  <thead>
+    <tr>
+      <!-- <th>Date</th> -->
+      <th>Name</th>
+      <th>Repo</th>
+      <th>Demo</th>
+      <th>Note</th>
+      <!-- <th>Details</th> -->
+    </tr>
+  </thead>
+  <tbody>
+    {% assign projects = site['project'] | sort: 'date' | reverse %}
+    {% for project in projects %}
+      {% if project.phony != true %}
+        <tr>
+          <!-- <td><strong>{{ project.date | date: '%d/%-m/%y' }}</strong></td> -->
+          <td>
+            {% if project.hascontent %}
+              <a href="{{ project.url }}">{{ project.title }}</a>
+            {% else %}
+              {{ project.title }}
+            {% endif %}
+            {% if project.subtitle %}
+              {{ project.subtitle }}
+            {% endif %}
+          </td>
+          <td>
+            {% if project.repourl %}
+              <a href="{{ project.repourl }}">Repo</a>
+            {% else %}
+              -
+            {% endif %}
+          </td>
+          <td>
+            {% if project.demourl %}
+              <a href="{{ project.demourl }}">Demo</a>
+            {% else %}
+              -
+            {% endif %}
+          </td>
+          <td>
+            {% if project.noteurl %}
+              <a href="{{ project.noteurl }}">Note</a>
+            {% else %}
+              -
+            {% endif %}
+          </td>
+          <!-- <td> -->
+          <!--   {% if project.details %} -->
+          <!--     {{ project.details }} -->
+          <!--   {% endif %} -->
+          <!-- </td> -->
+        </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
+
+{% comment %}
 
 ## Legacy
 
-Such a mess, will cleanup later 😆
+Such a mess 😆
 
 | Name                | Deploy                                                                 | Repo                                                                     | Concepts                                                                                                                                                                                                                                  |
 | ------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -94,3 +144,5 @@ Such a mess, will cleanup later 😆
 | RPS                 | [view](https://minhhoccode111.github.io/rock-paper-scissors-game-top/) | [view](https://github.com/minhhoccode111/rock-paper-scissors-game-top/)  | `JS` `HTML` `CSS` `Gh-pages`                                                                                                                                                                                                              |
 | Landing Page        | [view](https://minhhoccode111.github.io/landing-page-top/)             | [view](https://github.com/minhhoccode111/landing-page-top/)              | `HTML` `CSS` `Gh-pages`                                                                                                                                                                                                                   |
 | Recipes Website     | [view](https://minhhoccode111.github.io/recipes-website-top/)          | [view](https://github.com/minhhoccode111/recipes-website-top)            | `JS` `HTML` `CSS` `Webpack` `Tailwind` `Gh-pages`                                                                                                                                                                                         |
+
+{% endcomment %}
