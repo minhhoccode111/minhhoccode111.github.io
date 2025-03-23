@@ -46,17 +46,6 @@ When I'm not writing code, you will find me either:
 - **Brave**
 - **Obsidian**
 
-## Technologies
-
-- **ReactJS**
-- **Go**
-- **PostgreSQL**
-- **Redis**
-- .NET
-- ExpressJS
-- MongoDB
-- etc.
-
 ## Contact me
 
 - Gmail: <minhhoccode111@gmail.com>
