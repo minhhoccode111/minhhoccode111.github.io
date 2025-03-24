@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blog
-description: "{{ site.description }} - Blog"
+description: "Minh Dang (aka minhhoccode111) - Fullstack Developer - Blogs"
 permalink: /blog/
 banner: "/static/media/images/pepe-flower.webp"
 lang: en

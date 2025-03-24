@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "About"
-description: "{{ site.description }} - About"
+description: "Minh Dang (aka minhhoccode111) - Fullstack Developer - About"
 permalink: /
 lang: en
 banner: "/static/media/images/pepe-violin.png"
