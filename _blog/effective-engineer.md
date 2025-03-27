@@ -1,12 +1,17 @@
 ---
 title: Effective Engineer
 layout: post
-date: 2025-03-25
+date: 2025-04-08
 ready: true
 details: Software Engineering
 # banner: "/static/media/images/hello-world-banner.webp"
 lang: en
 ---
+
+<video autoplay="autoplay" loop="loop" controls muted playsinline  oncontextmenu="return false;"  preload="auto"  class="demo">
+
+  <source src="/static/media/demos/vim.mp4" type="video/mp4">
+</video>
 
 ## Part 1: Adopt the Right Mindsets
 
@@ -113,7 +118,7 @@ We identify ahead of time a situation where we plan to do a certain task.
 
 The planning creates a link between the situation or cure (the if) and the behavior that should follow (the then). When cure triggers, the _then_ behavior follows automatically without any conscious intent.
 
-## Execute, Execute, Execute
+## Part 2: Execute, Execute, Execute
 
 ### Invest in Iteration Speed
 
@@ -221,7 +226,7 @@ Increase the prob- ability that overtime will actually accomplish your goals by:
 - Developing a realistic and revised version of the project plan and timeline.
 - Being ready to abandon the sprint if you slip even further from the revised timeline.
 
-## Building Long-Term Value
+## Part 3: Building Long-Term Value
 
 ### Balance Quality with Pragmatism
 

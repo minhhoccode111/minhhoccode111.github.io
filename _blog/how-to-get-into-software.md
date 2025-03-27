@@ -1,10 +1,10 @@
 ---
 title: How to get into software
 layout: post
-date: 2025-03-21
+date: 2025-04-02
 ready: true
 details: Arch, Python, Go, Nvim, Git, Github, Markdown, Web, Leetcode, Functional Programming
-# banner: "/static/media/images/hello-world-banner.webp"
+banner: "/static/media/images/software-programming.webp"
 lang: en
 ---
 
@@ -134,7 +134,3 @@ Eventually, you will get to a screening interview before you get rejected.
 Eventually, you will get to a technical interview before you get rejected.
 Eventually, you will get a job.
 It took me around 60 applications before I got my first programming job.
-
-<p class="right">
-    <i><a href="https://github.com/npmaile/blog/blob/main/posts/2.%20How%20to%20get%20into%20software.md">Source: npmaile</a></i>
-</p>

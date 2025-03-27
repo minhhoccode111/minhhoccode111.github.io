@@ -3,7 +3,7 @@ layout: post
 title: Project
 description: "Minh Dang (aka minhhoccode111) - Fullstack Developer - Projects"
 permalink: /project/
-banner: "/static/media/images/pepe-bubble.png"
+banner: "/static/media/images/pepe-bubble.webp"
 lang: en
 ---
 
