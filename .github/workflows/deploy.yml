@@ -37,6 +37,14 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install Proselint
+        run: pip install proselint
+      - name: Run proselint on markdown files
+        run: find . -name "*.md" -exec proselint {} + || true # only warning and not fail the CI
 
   # Deployment job
   deploy:
