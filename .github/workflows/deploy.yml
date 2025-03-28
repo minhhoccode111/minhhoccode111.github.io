@@ -44,7 +44,15 @@ jobs:
       - name: Install Proselint
         run: pip install proselint
       - name: Run proselint on markdown files
-        run: find . -name "*.md" -exec proselint {} + || true # only warning and not fail the CI
+        run: find . -name "*.md" -exec proselint {} + || true # Don't fail the CI
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - name: Install write-good
+        run: npm install -g write-good
+      - name: Lint markdown with write-good
+        run: find . -name "*.md" -exec write-good {} \; || true # Don't fail the CI
 
   # Deployment job
   deploy:
