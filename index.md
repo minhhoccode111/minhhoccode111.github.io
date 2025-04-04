@@ -31,20 +31,20 @@ banner_credit: "Trust the process"
 ## Hi
 
 I'm Minh Dang (aka minhhoccode111), a [self-taught](https://www.theodinproject.com/) software developer from Vietnam.
-I love learning, solving problems and building things (in NeoVim btw).
+I love learning, solving problems and building things (in Neovim btw).
 Lately, I've been enjoying [Go](https://go.dev/)! 😆
 
 When I'm not writing code, you will find me either:
 
 - Watch [The Primeagen](https://www.youtube.com/watch?v=tNZnLkRBYA8) ([He has been with me the whole journey](https://www.youtube.com/watch?v=96VlfN7ViyE))
-- Listen to [Ca Hoi Hoang](https://www.youtube.com/@cahoihoang) and [Ngot](https://www.youtube.com/c/Ng%E1%BB%8Dtband) (Sadly, they both disbanded)
+- Listen to [Ca Hoi Hoang](https://www.youtube.com/@cahoihoang) and [Ngot](https://www.youtube.com/c/Ng%E1%BB%8Dtband)
 - Read [Vagabond](https://drive.google.com/drive/u/0/folders/1o7A4S189u5SZyDmnbok3sN9rvu3q39me) and **Berserk**
 - Watch **HxH** and **Haikyuu!!**
 
-## My Environment
+## Environment
 
 - **[Arch](https://archlinux.org/)** (btw)
-- **[NeoVim](https://neovim.io/)**
+- **[Neovim](https://neovim.io/)**
 - **[Ghostty](https://ghostty.org/)**
 - **[Brave](https://brave.com/)**
 - **[Obsidian](https://obsidian.md/)**
