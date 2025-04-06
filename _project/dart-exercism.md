@@ -1,10 +1,10 @@
 ---
 layout: post
 date: 2025-02-25
-title: Dart Exercism
+title: Flutter Practice
 details: Dart
 hascontent: true
-repourl: https://github.com/minhhoccode111/dart-exercism
+repourl: https://github.com/minhhoccode111/flutter-practice
 demourl:
 noteurl:
 ---
