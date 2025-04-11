@@ -6,6 +6,5 @@ details: Linux
 hascontent: false
 repourl: https://github.com/minhhoccode111/missing-semester-mit
 demourl:
-noteurl:
+noteurl: https://missing.csail.mit.edu/
 ---
-

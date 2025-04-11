@@ -4,7 +4,7 @@ layout: post
 date: 2025-04-02
 ready: true
 details: Arch, Python, Go, Nvim, Git, Github, Markdown, Web, Leetcode, Functional Programming
-banner: "/static/media/images/software-programming.webp"
+banner: "/static/media/images/software-integration.webp"
 lang: en
 ---
 

@@ -2,7 +2,8 @@
 title: Bulletproof React file structure
 layout: post
 date: 2025-04-15
-ready: true
+ready: false
+phony: true
 details: React, TypeScript, TailwindCSS, React Query, Zustand
 banner: "/static/media/images/react.webp"
 lang: en

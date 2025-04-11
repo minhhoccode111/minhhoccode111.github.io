@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Project
-description: "Minh Dang (aka minhhoccode111) - Fullstack Developer - Projects"
+description: "Minh Dang (aka minhhoccode111) - Software Developer - Projects"
 permalink: /project/
 banner: "/static/media/images/pepe-bubble.webp"
 lang: en

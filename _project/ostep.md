@@ -6,6 +6,5 @@ details: OS
 hascontent: false
 repourl: https://github.com/minhhoccode111/ostep
 demourl:
-noteurl:
+noteurl: https://pages.cs.wisc.edu/~remzi/OSTEP/
 ---
-

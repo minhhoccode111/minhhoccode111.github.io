@@ -6,6 +6,5 @@ details: DSA
 hascontent: false
 repourl: https://github.com/minhhoccode111/data-structures-and-algorithms
 demourl:
-noteurl:
+noteurl: https://www.coursera.org/specializations/data-structures-algorithms
 ---
-

@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "About"
-description: "Minh Dang (aka minhhoccode111) - Fullstack Developer - About"
+description: "Minh Dang (aka minhhoccode111) - Software Developer - About"
 permalink: /
 lang: en
 banner: "/static/media/images/pepe-violin.webp"
-banner_credit: "Trust the process"
+banner_credit: "- Trust the process -"
 # description: "Helps with SEO optimization."
 # date: 2025-03-18                        # Used for sorting logic, post ordering, etc.
 # short_title: "Hello World"              # Alternative shorter title for meta previews if the main title is too long.
@@ -26,12 +26,13 @@ banner_credit: "Trust the process"
 # hascontent: false                       # Determines whether navigation to the page should be enabled.
 # noteurl: "/blog/asd" or "https://a.b/c" # Link to a related blog post, tutorial, or documentation (internal or external).
 # cwebp -q 80 avatar.png -o avatar.webp   # command to convert png to webp for better performance
+# ffmpeg -i ex.webp -vf "crop=in_w:in_h-40:0:0" cropped.webp # crop 40px at the bottom
 ---
 
 ## Hi
 
 I'm Minh Dang (aka minhhoccode111), a [self-taught](https://www.theodinproject.com/) software developer from Vietnam.
-I love learning, solving problems and building things (in Neovim btw).
+I love learning, solving problems and building things (in [Neovim](https://github.com/minhhoccode111/nvim) btw).
 Lately, I've been enjoying [Go](https://go.dev/)! 😆
 
 When I'm not writing code, you will find me either:
@@ -41,7 +42,7 @@ When I'm not writing code, you will find me either:
 - Read [Vagabond](https://drive.google.com/drive/u/0/folders/1o7A4S189u5SZyDmnbok3sN9rvu3q39me) and **Berserk**
 - Watch **HxH** and **Haikyuu!!**
 
-## Environment
+## My environment
 
 - **[Arch](https://archlinux.org/)** (btw)
 - **[Neovim](https://neovim.io/)**
@@ -53,5 +54,7 @@ When I'm not writing code, you will find me either:
 
 - Gmail: <minhhoccode111@gmail.com>
 - Github: <https://github.com/minhhoccode111>
+- Website: <https://minhhoccode111.github.io>
+- Exercism: <https://exercism.org/profiles/minhhoccode111>
 
 {% include iframe_video.html id="QIyc6NKS5J0" aspect="56.25" %}
