@@ -88,3 +88,7 @@ This step ties everything together into a cohesive, high-performance environment
 Switching from VSCode to Nvim isn't just a tool change—it's a mindset shift. Pair it with Linux, and you've got a setup that's fast, flexible, and endlessly customizable. I've never regretted the time I invested in learning them, and I bet you won't either.
 
 That was fun to write 😆. Now go forth and conquer those keybindings!
+
+## Bonus (from ThePrimeagen)
+
+{% include iframe_video.html id="1UXHsCT18wE" aspect="56.25" %}

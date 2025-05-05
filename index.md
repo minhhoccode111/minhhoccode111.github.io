@@ -5,7 +5,7 @@ description: "Minh Dang (aka minhhoccode111) - Software Developer - About"
 permalink: /
 lang: en
 banner: "/static/media/images/pepe-violin.webp"
-banner_credit: "- Trust the process -"
+banner_credit: "--- Trust the process ---"
 # description: "Helps with SEO optimization."
 # date: 2025-03-18                        # Used for sorting logic, post ordering, etc.
 # short_title: "Hello World"              # Alternative shorter title for meta previews if the main title is too long.
@@ -39,8 +39,7 @@ When I'm not writing code, you will find me either:
 
 - Watch [The Primeagen](https://www.youtube.com/watch?v=tNZnLkRBYA8) ([He has been with me the whole journey](https://www.youtube.com/watch?v=96VlfN7ViyE))
 - Listen to [Ca Hoi Hoang](https://www.youtube.com/@cahoihoang) and [Ngot](https://www.youtube.com/c/Ng%E1%BB%8Dtband)
-- Read [Vagabond](https://drive.google.com/drive/u/0/folders/1o7A4S189u5SZyDmnbok3sN9rvu3q39me) and **Berserk**
-- Watch **HxH** and **Haikyuu!!**
+- Read [Vagabond](https://drive.google.com/drive/u/0/folders/1o7A4S189u5SZyDmnbok3sN9rvu3q39me), watch **HxH** and **Haikyuu!!**
 
 ## My environment
 
