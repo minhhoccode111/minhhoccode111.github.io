@@ -2,7 +2,7 @@
 title: Hello World
 layout: post
 date: 2025-03-18
-ready: true
+ready: false
 details: Build systems, dependency management, testing, CI
 banner: "/static/media/images/hello-world-banner.webp"
 lang: en
