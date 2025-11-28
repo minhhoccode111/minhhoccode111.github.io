@@ -33,7 +33,7 @@ banner_credit: "--- Trust the process ---"
 
 I'm Minh Dang (aka **minhhoccode111**), a software developer from Vietnam.
 I love learning, solving problems and building things (in [NeoVim](https://github.com/minhhoccode111/nvim) btw).
-Lately, I've been enjoying [Go](https://go.dev/) 🔥
+Lately, I've been enjoying [Go](https://go.dev/) and [Svelte](https://svelte.dev).
 
 When I'm not writing code, you will find me either:
 

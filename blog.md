@@ -12,7 +12,7 @@ lang: en
 {% for post in posts %}
     {% if post.phony != true %}
         <li>
-        <strong>{{ post.date | date: '%d/%-m/%y' }}</strong>:
+        <strong>{{ post.date | date: '%d/%m/%y' }}</strong>:
         {% if post.ready %}
             <a href="{{ post.url }}">{{ post.title }}</a>
         {% else %}
