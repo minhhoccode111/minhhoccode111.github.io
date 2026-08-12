@@ -9,7 +9,7 @@ Contributions are most welcome! If you have edits or new content to add, please 
 To build and view the site locally, run:
 
 ```bash
-bundle exec jekyll serve -w --incremental
+RBENV_VERSION=3.2.5 bundle exec jekyll serve -w --incremental
 ```
 
 Then, navigate to http://localhost:4000 on your host machine to view the website. Jekyll will re-build the website as you make changes to files.

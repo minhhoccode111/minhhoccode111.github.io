@@ -6,6 +6,6 @@ subtitle:
 details: React React-Router React-Query Zustand ShadcnUI TailwindCSS
 hascontent: false
 repourl: https://github.com/minhhoccode111/realworld-react.git
-demourl:
+demourl: https://realworld.minhhoccode111.com/
 noteurl:
 ---
