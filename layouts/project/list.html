@@ -1,0 +1,72 @@
+{{ define "main" }}
+  {{ partial "page-header.html" . }}
+  {{ .Content }}
+  {{ $pages := where .Site.RegularPages "Section" "project" }}
+  {{ $tags := slice }}
+  {{ range $pages }}
+    {{ if not .Params.phony }}
+      {{ range .Params.tags }}
+        {{ $tags = $tags | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ $tags = $tags | uniq | sort }}
+  {{ with $tags }}
+    {{ partial "tag-filter.html" . }}
+  {{ end }}
+  <table class="projects-table">
+    <thead>
+      <tr>
+        <!-- <th>Date</th> -->
+        <th>Name</th>
+        <th>Repo</th>
+        <th>Demo</th>
+        <th>Note</th>
+        <!-- <th>Details</th> -->
+      </tr>
+    </thead>
+    <tbody>
+      {{ range $pages.ByDate.Reverse }}
+        {{ if not .Params.phony }}
+          <tr data-tags="{{ range .Params.tags }}{{ . | urlize }} {{ end }}">
+            <!-- <td><strong>{{ .Date.Format "02/1/06" }}</strong></td> -->
+            <td>
+              {{ if .Params.hascontent }}
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              {{ else }}
+                {{ .Title }}
+              {{ end }}
+              {{ with .Params.subtitle }}
+                {{ . }}
+              {{ end }}
+            </td>
+            <td>
+              {{ with .Params.repourl }}
+                <a href="{{ . }}">Repo</a>
+              {{ else }}
+                -
+              {{ end }}
+            </td>
+            <td>
+              {{ with .Params.demourl }}
+                <a href="{{ . }}">Demo</a>
+              {{ else }}
+                -
+              {{ end }}
+            </td>
+            <td>
+              {{ with .Params.noteurl }}
+                <a href="{{ . }}">Note</a>
+              {{ else }}
+                -
+              {{ end }}
+            </td>
+            <!-- <td> -->
+            <!--   {{ with .Params.details }}{{ . }}{{ end }} -->
+            <!-- </td> -->
+          </tr>
+        {{ end }}
+      {{ end }}
+    </tbody>
+  </table>
+{{ end }}

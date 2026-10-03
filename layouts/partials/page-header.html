@@ -1,0 +1,16 @@
+{{ with .Params.banner }}
+  {{ partial "scaled_image.html" (dict "src" . "alt" "Page banner" "width" "616") }}
+  {{ with $.Params.banner_credit }}
+    <p class="right"><i>{{ . }}</i></p>
+  {{ end }}
+{{ end }}
+
+<h1 class="title">{{ .Title }}{{ with .Params.subtitle }} <span class="subtitle">{{ . }}</span>{{ end }}</h1>
+
+{{ with .Params.tags }}
+  <p class="page-tags">
+    {{ range . }}
+      <a class="tag-chip" href="/{{ $.Section }}/?tag={{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+  </p>
+{{ end }}

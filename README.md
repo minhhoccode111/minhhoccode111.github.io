@@ -6,10 +6,14 @@ Contributions are most welcome! If you have edits or new content to add, please 
 
 ## Development
 
-To build and view the site locally, run:
+This site is built with [Hugo](https://gohugo.io/) and styled with [Tailwind CSS](https://tailwindcss.com/) (v4, via the standalone CLI — no Node required).
+
+Install the Hugo extended binary, then use the `Makefile`:
 
 ```bash
-bundle exec jekyll serve -w --incremental
+make dev     # Tailwind in watch mode + Hugo dev server (http://localhost:1313)
+make css     # compile assets/css/tailwind.css -> assets/css/app.css (one-off)
+make build   # production build (Tailwind + Hugo -> public/)
 ```
 
-Then, navigate to http://localhost:4000 on your host machine to view the website. Jekyll will re-build the website as you make changes to files.
+`make css` downloads the pinned standalone Tailwind binary into `bin/` (gitignored) on first run. Hugo fingerprints and inlines an SRI hash for the compiled CSS, so `make build` is what CI runs.

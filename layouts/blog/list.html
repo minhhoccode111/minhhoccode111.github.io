@@ -1,0 +1,31 @@
+{{ define "main" }}
+  {{ partial "page-header.html" . }}
+  {{ .Content }}
+  {{ $pages := where .Site.RegularPages "Section" "blog" }}
+  {{ $tags := slice }}
+  {{ range $pages }}
+    {{ if not .Params.phony }}
+      {{ range .Params.tags }}
+        {{ $tags = $tags | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ $tags = $tags | uniq | sort }}
+  {{ with $tags }}
+    {{ partial "tag-filter.html" . }}
+  {{ end }}
+  <ul>
+    {{ range $pages.ByDate.Reverse }}
+      {{ if not .Params.phony }}
+        <li data-tags="{{ range .Params.tags }}{{ . | urlize }} {{ end }}">
+        <strong>{{ .Date.Format "02/01/06" }}</strong>:
+        {{ if .Params.ready }}
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ else }}
+          {{ .Title }} [comming soon]
+        {{ end }}
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+{{ end }}

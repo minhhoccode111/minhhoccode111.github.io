@@ -1,0 +1,13 @@
+---
+date: 2025-03-22
+title: minhhoccode111.github.io
+subtitle: "(this site)"
+details: Gh-pages, Gh Actions, Jekyll, Ruby, SSG
+tags: ["Hugo", "GitHub Actions", "GitHub Pages"]
+hascontent: false
+repourl: https://github.com/minhhoccode111/minhhoccode111.github.io
+demourl: https://minhhoccode111.github.io
+noteurl:
+# noteurl: /blog/setting-up-a-site-with-github-pages-and-jekyll
+---
+

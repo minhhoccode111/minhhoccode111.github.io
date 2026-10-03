@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {{ partial "head.html" . }}
+
+  <body class="bg-surface text-ink overflow-y-scroll flex min-h-dvh flex-col">
+
+    {{ partial "nav.html" . }}
+
+    <div id="content" class="mx-auto mb-8 w-full max-w-[35rem] flex-1 px-4 pt-4">
+    {{ block "main" . }}{{ end }}
+    </div>
+
+    {{ partial "footer.html" . }}
+
+    {{ $js := resources.Get "js/copy-code.js" | minify | fingerprint "sha384" }}
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+
+    {{ $tagsjs := resources.Get "js/tag-filter.js" | minify | fingerprint "sha384" }}
+    <script src="{{ $tagsjs.RelPermalink }}" integrity="{{ $tagsjs.Data.Integrity }}" defer></script>
+
+  </body>
+
+</html>

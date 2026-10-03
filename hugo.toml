@@ -1,0 +1,41 @@
+baseURL = "https://minhhoccode111.github.io/"
+locale = "en"
+title = "minhhoccode111"
+timeZone = "Asia/Ho_Chi_Minh"
+
+# Jekyll used `future: true`; keep future-dated posts published.
+buildFuture = true
+
+# Jekyll did not emit a generator meta tag.
+disableHugoGeneratorInject = true
+
+# No taxonomies/RSS/sitemap in the Jekyll output, so disable them.
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+
+[params]
+  author = "Minh Dang"
+  description = "Minh Dang (aka minhhoccode111) - Software Developer"
+  # analytics:
+  #   tracking_id = "G-XXXXXXXXXX"
+
+# Jekyll's `permalink: /:title/` slugs from the filename, not the title.
+[permalinks]
+  blog = "/blog/:contentbasename/"
+  project = "/project/:contentbasename/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      # Jekyll/kramdown passed raw HTML through; Goldmark needs this.
+      unsafe = true
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
+  [markup.highlight]
+    # Use class-based highlighting so the existing static/css/syntax.css applies.
+    noClasses = false
+    lineNos = false
+
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+  page = ["HTML"]

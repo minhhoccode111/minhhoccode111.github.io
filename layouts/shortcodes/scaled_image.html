@@ -1,0 +1,4 @@
+{{ $href := .Get "href" | default (.Get "src") }}
+<a href="{{ $href }}">
+  <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" style="width: 100%; max-width: {{ .Get "width" }}px; max-height: 100%;">
+</a>

@@ -1,20 +1,12 @@
-# gems and ruby for blog dir
-vendor/
-.bundle/
-.gem/
-.rbenv-version
-.ruby-version
-.ruby-gemset
+# build output of Hugo
+public/
+resources/
+.hugo_build.lock
 
-# lock file of Bundler
-# Gemfile.lock
+# generated CSS + downloaded tooling
+assets/css/app.css
+bin/
 
 # cache and log
 .log/
 tmp/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-
-# build file of Jekyll
-_site/

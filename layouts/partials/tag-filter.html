@@ -1,0 +1,8 @@
+<div class="tag-filter" data-tag-filter>
+  <div class="tag-chips">
+    {{ range . }}
+      <button type="button" class="tag-chip" data-tag="{{ . | urlize }}" aria-pressed="false">{{ . }}</button>
+    {{ end }}
+    <button type="button" class="tag-chip tag-clear" data-tag-clear hidden>Clear</button>
+  </div>
+</div>

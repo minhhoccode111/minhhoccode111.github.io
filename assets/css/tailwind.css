@@ -1,0 +1,568 @@
+@import "tailwindcss";
+
+@source "../../layouts/**/*.html";
+@source "../../content/**/*.md";
+@source "../../hugo.toml";
+
+/* ------------------------------------------------------------------ */
+/* Design tokens                                                       */
+/* ------------------------------------------------------------------ */
+@theme {
+  --font-sans: "Source Sans Pro", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Source Code Pro", Menlo, "DejaVu Sans Mono", "Lucida Console", monospace;
+
+  --color-surface: #202224;
+  --color-ink: #ffffff;
+  --color-heading: #eeeeee;
+  --color-code: #313335;
+  --color-hairline: #444444;
+  --color-rule: #999999;
+  --color-link: #66d9ef;
+  --color-nav: #007d9c;
+  --color-logo: #f2deff;
+  --color-accent: #f92672;
+}
+
+/* ------------------------------------------------------------------ */
+/* Base                                                                */
+/* ------------------------------------------------------------------ */
+@layer base {
+  * {
+    text-rendering: geometricPrecision;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    font-size: 14pt;
+    line-height: 1.5;
+  }
+
+  body {
+    background-color: var(--color-surface);
+    color: var(--color-ink);
+    overflow-y: scroll;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.25;
+    font-size: 1rem;
+    color: var(--color-heading);
+  }
+
+  h1 {
+    margin-top: 1.25rem;
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    margin-top: 1.25rem;
+    font-size: 1.1rem;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style-position: inside;
+    padding-left: 1rem;
+  }
+
+  ol {
+    margin-left: 1rem;
+  }
+
+  li > ul {
+    padding-left: 2rem;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  ul,
+  ol {
+    margin-bottom: 1rem;
+  }
+
+  ul ul,
+  ol ul,
+  ul ol,
+  ol ol {
+    margin-bottom: inherit;
+  }
+
+  ul li:before {
+    content: "\2013  ";
+    position: absolute;
+    margin-left: -1rem;
+  }
+
+  ul.double-spaced li {
+    margin-top: 1rem;
+  }
+
+  pre,
+  code {
+    font-family: var(--font-mono);
+  }
+
+  code {
+    background-color: var(--color-code);
+    border: 1px dashed var(--color-hairline);
+    border-radius: 3px;
+    padding: 0 0.2rem;
+    font-size: 12pt;
+  }
+
+  pre {
+    background-color: var(--color-code);
+    color: var(--color-heading);
+    margin: 1rem;
+    padding: 0.5rem 0.7rem;
+    border: 1px dashed var(--color-hairline);
+    font-size: 11pt;
+    overflow-x: auto;
+  }
+
+  pre code {
+    color: inherit;
+    border-width: 0px;
+    background: none;
+    font-size: 100%;
+    padding: 0;
+  }
+
+  /* Thin, themed scrollbars for code blocks. */
+  pre {
+    scrollbar-width: thin;
+    scrollbar-color: #4a4e54 transparent;
+  }
+
+  pre::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+  }
+
+  pre::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  pre::-webkit-scrollbar-thumb {
+    background-color: #4a4e54;
+    border: 2px solid var(--color-code);
+    border-radius: 9999px;
+  }
+
+  pre::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-link);
+  }
+
+  a {
+    color: var(--color-link);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #000;
+    background-color: var(--color-link);
+    text-decoration: none;
+  }
+
+  img,
+  video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    max-width: 100%;
+    max-height: 80vh;
+  }
+
+  video {
+    margin-bottom: 1rem;
+  }
+
+  summary {
+    outline: none;
+    user-select: none;
+  }
+
+  hr {
+    position: relative;
+    margin: 1.5rem 0;
+    border: 0;
+    border-top: 1px solid var(--color-heading);
+    border-bottom: 1px solid #fff;
+  }
+
+  /* Keyboard focus affordance (minor polish; was missing before). */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  summary:focus-visible {
+    outline: 2px solid var(--color-link);
+    outline-offset: 2px;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Components                                                          */
+/* ------------------------------------------------------------------ */
+@layer components {
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+
+  .small {
+    font-size: 0.75rem;
+  }
+
+  .small p {
+    margin-bottom: 0;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .right {
+    text-align: right;
+  }
+
+  .gap {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .accent {
+    color: var(--color-accent);
+  }
+
+  .demo {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  .caption {
+    font-size: 0.85rem;
+    color: var(--color-heading);
+  }
+
+  .image-wrapper {
+    margin: 1rem 0;
+  }
+
+  .youtube-wrapper {
+    position: relative;
+    height: 0;
+    margin-bottom: 1rem;
+  }
+
+  .youtube-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  /* --- Copy-code button --- */
+  .highlight {
+    position: relative;
+    display: flow-root;
+  }
+
+  .copy-code {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    line-height: 1;
+    color: var(--color-heading);
+    background-color: var(--color-code);
+    border: 1px dashed var(--color-hairline);
+    border-radius: 3px;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 120ms ease, color 120ms ease, background-color 120ms ease;
+  }
+
+  .highlight:hover .copy-code,
+  .copy-code:focus-visible {
+    opacity: 1;
+  }
+
+  .copy-code:hover {
+    color: var(--color-code);
+    background-color: var(--color-link);
+  }
+
+  .copy-code[data-copied="true"] {
+    color: var(--color-code);
+    background-color: #a6e22e;
+    opacity: 1;
+  }
+
+  /* Touch devices have no hover, so keep the button visible. */
+  @media (hover: none) {
+    .copy-code {
+      opacity: 1;
+    }
+  }
+
+  /* --- Tag filter chips --- */
+  .tag-filter {
+    margin-bottom: 1rem;
+  }
+
+  .tag-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .tag-chip {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    line-height: 1;
+    color: var(--color-heading);
+    background-color: var(--color-code);
+    border: 1px solid var(--color-hairline);
+    border-radius: 9999px;
+    padding: 0.2rem 0.45rem;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .tag-chip:hover,
+  .tag-chip.is-active {
+    color: #000;
+    background-color: var(--color-link);
+    border-color: var(--color-link);
+  }
+
+  .tag-chip:focus-visible {
+    outline: 2px solid var(--color-link);
+    outline-offset: 2px;
+  }
+
+  .tag-clear {
+    border-style: dashed;
+  }
+
+  .page-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .page-tags .tag-chip {
+    font-size: 0.62rem;
+  }
+
+  .projects-table {
+    width: 100%;
+    border-spacing: 4px;
+  }
+
+  .projects-table th,
+  .projects-table td {
+    padding: 0px 8px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .projects-table th {
+    font-weight: bold;
+  }
+
+  .projects-table tr td {
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  /* --- Site nav (CSS-only checkbox menu) --- */
+  #nav-bg {
+    margin: 0;
+    padding: 1rem;
+    font-family: var(--font-mono);
+    color: #fff;
+  }
+
+  #nav-bg,
+  a#logo,
+  #top-nav a {
+    background-color: var(--color-nav);
+    color: #ffffff;
+  }
+
+  #top-nav {
+    max-width: 40rem;
+    margin: auto;
+    text-align: center;
+  }
+
+  #top-nav a {
+    text-decoration: none;
+  }
+
+  #top-nav a:hover {
+    color: #000;
+    background-color: #fff;
+  }
+
+  a#logo {
+    color: var(--color-logo);
+  }
+
+  a:hover#logo {
+    color: #000;
+  }
+
+  #menu-icon {
+    display: none;
+  }
+
+  .menu-label {
+    font-family: var(--font-mono);
+  }
+
+  #menu-icon ~ .menu-label:after {
+    content: "(+)";
+  }
+
+  #menu-icon:checked ~ .menu-label:after {
+    content: "(-)";
+  }
+
+  .trigger {
+    display: none;
+  }
+
+  #menu-icon:checked ~ .trigger {
+    display: block;
+    margin: auto;
+  }
+
+  .nav-link {
+    display: block;
+  }
+
+  .trigger-child {
+    display: inline-block;
+    text-align: initial;
+  }
+
+  .nav-link:before {
+    content: "- ";
+  }
+
+  @media (min-width: 40rem) {
+    .menu-label {
+      display: none;
+    }
+
+    .trigger {
+      display: inline;
+      padding-top: inherit;
+    }
+
+    .trigger-child {
+      display: inline;
+      text-align: initial;
+    }
+
+    #menu-icon:checked ~ .trigger {
+      display: inline;
+    }
+
+    .nav-link {
+      display: initial;
+    }
+
+    .nav-link:before {
+      content: "| ";
+    }
+  }
+
+  a:hover > code {
+    background-color: var(--color-link);
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Print                                                               */
+/* ------------------------------------------------------------------ */
+@layer base {
+  @media print {
+    #nav-bg,
+    #logo,
+    #top-nav {
+      display: none;
+    }
+    h1.title ~ p.center.gap.accent {
+      display: none;
+    }
+    .youtube-wrapper {
+      display: none;
+    }
+    html {
+      font-size: 1em;
+      font-family: sans-serif;
+    }
+    body {
+      background: none;
+    }
+    #content {
+      max-width: none;
+    }
+    h1.title {
+      text-align: center;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      break-after: avoid-page;
+      page-break-after: avoid;
+    }
+    #content hr:last-of-type {
+      display: none;
+    }
+    #content pre {
+      break-inside: avoid-page;
+      page-break-inside: avoid;
+      white-space: pre-wrap;
+    }
+    #content div.small:last-of-type {
+      display: none;
+    }
+    a[href^="https://"]::after,
+    a[href^="http://"]::after {
+      content: "(" attr(href) ")";
+      font-family: monospace;
+      margin: 0 0.25em;
+    }
+  }
+}

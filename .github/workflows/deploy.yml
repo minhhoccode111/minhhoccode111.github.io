@@ -1,4 +1,4 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+# Workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy
 
 on:
@@ -21,22 +21,51 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+# Default to bash
+defaults:
+  run:
+    shell: bash
+
 jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.167.0
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
         with:
-          source: ./
-          destination: ./_site
+          fetch-depth: 0
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb \
+            https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Build Tailwind CSS
+        run: make css
+
+      - name: Build with Hugo
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          hugo \
+            --gc \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -44,15 +73,15 @@ jobs:
       - name: Install Proselint
         run: pip install proselint
       - name: Run proselint on markdown files
-        run: find . -name "*.md" -exec proselint {} + || true # Don't fail the CI
+        run: find content -name "*.md" -exec proselint {} + || true # Don't fail the CI
       - name: Set up Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '16'
+          node-version: '20'
       - name: Install write-good
         run: npm install -g write-good
       - name: Lint markdown with write-good
-        run: find . -name "*.md" -exec write-good {} \; || true # Don't fail the CI
+        run: find content -name "*.md" -exec write-good {} \; || true # Don't fail the CI
 
   # Deployment job
   deploy:

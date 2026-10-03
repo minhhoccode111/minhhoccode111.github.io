@@ -1,0 +1,66 @@
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="og:url" content="{{ .Permalink }}">
+  <meta property="og:site_name" content="{{ site.Title }}">
+
+  {{ with .Description }}
+    <meta name="description" content="{{ . }}">
+    <meta name="twitter:description" content="{{ . }}">
+    <meta property="og:description" content="{{ . }}">
+  {{ end }}
+
+  {{ $title := site.Title }}
+  {{ with .Params.short_title }}
+    {{ $title = . }}
+  {{ else }}
+    {{ with $.Title }}
+      {{ $title = . }}
+    {{ end }}
+  {{ end }}
+  <meta name="twitter:title" content="{{ $title }}">
+  <meta property="og:title" content="{{ $title }}">
+
+  {{ with .Params.thumbnail }}
+    <meta name="twitter:image:src" content="{{ . | absURL }}">
+    <meta property="og:image" content="{{ . | absURL }}">
+  {{ end }}
+
+  <title>
+    {{ if .Title }}
+      {{ if .Params.nositetitle }}
+        {{ .Title }}
+      {{ else }}
+        {{ .Title }} &middot; {{ site.Title }}
+      {{ end }}
+    {{ else }}
+      {{ site.Title }}
+    {{ end }}
+  </title>
+
+  {{ $app := resources.Get "css/app.css" | minify | fingerprint "sha384" }}
+  <link rel="stylesheet" href="{{ $app.RelPermalink }}" integrity="{{ $app.Data.Integrity }}">
+  {{ $syntax := resources.Get "css/syntax.css" | minify | fingerprint "sha384" }}
+  <link rel="stylesheet" href="{{ $syntax.RelPermalink }}" integrity="{{ $syntax.Data.Integrity }}">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+  {{ with site.Params.analytics }}{{ with .tracking_id }}
+    <!-- google analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ . }}');
+    </script>
+  {{ end }}{{ end }}
+
+</head>
